@@ -1,0 +1,52 @@
+body
+{
+	background:#5F9EA0
+}
+div{
+    color:darkgreen;
+    font-size:smaller;
+    font-style: italic;
+    font-family: Geneva, Tahoma;
+    position:relative;
+    top:0px;
+    left:600px;
+}
+p > a:visited, p > a:link{
+    color:black;
+    font-size: larger;
+}
+p > a:visited:active, p > a:visited:active{
+    color:pink;
+    font-size: larger;
+}
+.notimportant{
+    color:#b30000;
+    background-color: #ff8000;
+    font-family:  'Lucida Sans Regular','Lucida Sans','Lucida Sans Unicode', 'Lucida Grande', ;
+}
+#blank{
+    height:2000px;
+}
+div ~ h1{
+    background-color: pink;
+    color:red;
+}
+div + h1{
+    font-style: italic;
+    font-size: larger;
+    color:blue;
+}
+.move{
+    width:250px;
+    padding:9px;
+    border-radius: 5em/8em;
+    height: 69px;
+    background-color:#ffe6ac;
+    position:fixed;
+    top:50%;
+    left:-13%;
+    transition: 2s;
+}
+.move:hover{
+    left:-1%;
+}
